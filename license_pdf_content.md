@@ -141,37 +141,3 @@ Contact: chris@dissolutionshell.com
 Framework home: https://github.com/dissolution-framework/dissolution-shell
 ```
 
-## How to Create PDFs:
-
-### Option 1: Using Word/Google Docs
-1. Copy each text file content into Word/Google Docs
-2. Format professionally:
-   - Use consistent fonts (Arial or Times New Roman)
-   - Add headers and footers
-   - Use proper spacing and margins
-3. Export/Save as PDF
-
-### Option 2: Online Converters
-1. Save each text file as .txt
-2. Use online converter (e.g., SmallPDF, ILovePDF)
-3. Convert text to PDF
-
-### Option 3: Command Line (Mac/Linux)
-```bash
-# Install pandoc if not installed
-# Then convert:
-pandoc LICENSE.txt -o LICENSE.pdf
-pandoc COMMERCIAL-LICENSE-TERMS.txt -o COMMERCIAL-LICENSE-TERMS.pdf
-pandoc ATTRIBUTION-GUIDE.txt -o ATTRIBUTION-GUIDE.pdf
-```
-
-### Recommended PDF Names:
-- `LICENSE.pdf`
-- `COMMERCIAL-LICENSE-TERMS.pdf`
-- `ATTRIBUTION-GUIDE.pdf`
-
-These files will give you professional license documentation that you can:
-- Include in your GitHub repository
-- Send to potential commercial clients
-- Use for legal documentation
-- Attach to contracts or agreements
